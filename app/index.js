@@ -4,12 +4,12 @@ var ReactDOM = require('react-dom');
 var HelloWorld = React.createClass({
   render: function() {
     return (
-      <div>Hello ReactJS Program</div>
+      <div> Hello {this.props.name} </div>
     )
   }
 });
 
 ReactDOM.render(
-  <HelloWorld />,
+  <HelloWorld name="Florian" />,
   document.getElementById('app')
 );
