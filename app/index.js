@@ -10,7 +10,4 @@ var routes = require('./config/routes');
   Testable
 */
 
-ReactDOM.render(
-  routes,
-  document.getElementById('app')
-);
+ReactDOM.render( routes, document.getElementById('app') );
